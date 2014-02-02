@@ -29,4 +29,8 @@
   <java-symbol type="string" name="powermenu_screenshot" />
   <java-symbol type="drawable" name="ic_settings_powermenu" />
 
+  <!-- Theme install failure notification -->
+  <java-symbol type="string" name="theme_install_error_title" />
+  <java-symbol type="string" name="theme_install_error_message" />
+
 </resources>
