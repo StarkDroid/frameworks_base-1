@@ -3303,8 +3303,14 @@ public final class Settings {
          * @hide
          */
         public static final String DOUBLE_TAP_SLEEP_NAVBAR = "double_tap_sleep_navbar";
-
-        /**
+        
+		/**
+         * Volume rocker wake
+         * @hide
+         */
+        public static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
+		
+		/**
          * Config for advanced pa pie 2.0
          *
          * @hide
