@@ -311,7 +311,7 @@ public class CommandQueue extends IStatusBar.Stub {
                 enabled ? 1 : 0, 0, null).sendToTarget();
         }
     }
-	
+
     public void pause() {
         mPaused = true;
     }

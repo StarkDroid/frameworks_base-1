@@ -33,6 +33,10 @@
         @color/system_bar_background_transparent
     </color>
 
+    <!-- Expanded Status Bar Weather Text Colors -->
+    <color name="status_bar_temperature_text_color">#FFFFFFFF</color>
+    <color name="status_bar_temperature_location_text_color">#FFFFFFFF</color>
+
     <!-- tint of the Visualizer tile -->
     <color name="visualizer_fill_color">#96FFFFFF</color>
 
@@ -47,5 +51,5 @@
 
     <!-- Navigation button ripple color -->
     <color name="navbutton_ripple_color">#FFFFFFFF</color>
-
+	
 </resources>
