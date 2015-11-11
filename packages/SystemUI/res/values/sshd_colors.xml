@@ -90,7 +90,6 @@
     <color name="status">#ffffff</color>
 	
 	<!-- Floating action button -->
-    <color name="fab_color">#ff009688</color>
-    <color name="floating_action_button_icon_color">#ffffff</color>
+    <color name="fab_icon_color">@android:color/white</color>
 
 </resources>
