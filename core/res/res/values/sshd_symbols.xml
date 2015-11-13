@@ -39,5 +39,8 @@
 
   <!-- Non-themeable packages -->
   <java-symbol type="array" name="non_themeable_packages" />
-
+  
+  <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
+  <java-symbol type="string" name="system_error_vendorprint" />
+  
 </resources>
