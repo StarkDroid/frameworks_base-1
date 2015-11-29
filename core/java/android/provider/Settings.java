@@ -3548,11 +3548,17 @@ public final class Settings {
          */
         public static final String RECENTS_SEARCH_BAR = "recents_search_bar";
 
-	/**
+	    /**
          * show the membar in recents
          *  @hide
          */
         public static final String SYSTEMUI_RECENTS_MEM_DISPLAY = "systemui_recents_mem_display";
+
+		/**
+		 * Whether to display recents in full screen
+         * @hide
+         */
+        public static final String RECENTS_FULL_SCREEN = "recents_full_screen";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
