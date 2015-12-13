@@ -48,6 +48,7 @@ import android.util.Log;
 public final class ClientSession extends ObexSession {
 
     private static final String TAG = "ClientSession";
+    private static final boolean V = Log.isLoggable(ObexHelper.LOG_TAG, Log.VERBOSE);
 
     private boolean mOpen;
 
@@ -68,7 +69,7 @@ public final class ClientSession extends ObexSession {
 
     private final OutputStream mOutput;
 
-    private final boolean mLocalSrmSupported;
+    private boolean mLocalSrmSupported;
 
     private final ObexTransport mTransport;
 
@@ -612,5 +613,10 @@ public final class ClientSession extends ObexSession {
 
     public boolean isSrmSupported() {
         return mLocalSrmSupported;
+    }
+
+    public void setLocalSrmStatus(boolean SrmEnabled) {
+        mLocalSrmSupported = SrmEnabled;
+        if (V) Log.v(TAG, "setLocalSrmStatus: " + mLocalSrmSupported);
     }
 }
