@@ -2331,6 +2331,10 @@
          is non-interactive. -->
     <bool name="config_cameraDoubleTapPowerGestureEnabled">true</bool>
 
+    <!-- The BT name of the keyboard packaged with the device. If this is defined, SystemUI will
+         automatically try to pair with it when the device exits tablet mode. -->
+    <string translatable="false" name="config_packagedKeyboardName"></string>
+	
     <!-- Configuration that determines if ACTIVATE_REJECT_GGSN is to be treated as
          a permanent error -->
     <bool name="config_reject_ggsn_perm_failure">true</bool>
@@ -2341,4 +2345,5 @@
     <!-- Configuration to restart radio upon PDP_DEACTIVATE with
          error cause as Regular deactivation(36). -->
     <bool name="config_radio_reset_on_regular_deactivation">true</bool>
+
 </resources>
