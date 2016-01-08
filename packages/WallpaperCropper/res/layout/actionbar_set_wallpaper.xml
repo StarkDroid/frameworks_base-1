@@ -30,4 +30,3 @@
         android:drawablePadding="8dp"
         android:gravity="center_vertical"
         android:text="@string/wallpaper_instructions"/>
-</FrameLayout>
