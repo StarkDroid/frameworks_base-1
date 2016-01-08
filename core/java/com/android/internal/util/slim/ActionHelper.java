@@ -16,6 +16,7 @@
 
 package com.android.internal.util.slim;
 
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -24,6 +25,8 @@ import android.content.res.Resources;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.provider.Settings;
+import android.os.UserHandle;
 import android.util.Log;
 
 import java.io.File;
@@ -36,7 +39,7 @@ public class ActionHelper {
     private static final String SYSTEMUI_METADATA_NAME = "com.android.systemui";
 
     // General methods to retrieve the correct icon for the respective action.
-    public static Drawable getButtonIconImage(Context context,
+    public static Drawable getActionIconImage(Context context,
             String clickAction, String customIcon) {
         int resId = -1;
         Drawable d = null;
