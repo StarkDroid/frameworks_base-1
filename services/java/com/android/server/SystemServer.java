@@ -1083,14 +1083,6 @@ public final class SystemServer {
             reportWtf("making Display Manager Service ready", e);
         }
 
-        if (edgeGestureService != null) {
-            try {
-                edgeGestureService.systemReady();
-            } catch (Throwable e) {
-                reportWtf("making EdgeGesture service ready", e);
-            }
-        }
-
         IntentFilter filter = new IntentFilter();
         filter.addAction(Intent.ACTION_APP_FAILURE);
         filter.addAction(Intent.ACTION_APP_FAILURE_RESET);
